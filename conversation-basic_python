@@ -1,0 +1,56 @@
+import time
+
+time.sleep(0.5)
+
+print("Hello Mam welcome to Ibaco ! The Icecream destination")
+time.sleep(0.5)
+print("Here we have scoops , icecream shakes, cones, bars and ice cream cakes \n")
+
+time.sleep(3)
+flavor = input("What flavors of scoops are available")
+
+time.sleep(0.5)
+
+scoop = {"Icecream": "Blackcurrant,Vanilla,Strawberry,Chocolate,Butterscotch", "Toppings": 'Chocochip,Tutifruti,wafer'}
+print(scoop)
+
+time.sleep(2)
+print("Haa .. Blackcurrent scoop ")
+
+time.sleep(0.5)
+topping = input("Toppings?")
+
+time.sleep(3)
+price = input("How much is the ice cream cakes ?")
+
+time.sleep(2)
+cakes = input("What flavors are available")
+
+time.sleep(0.5)
+icecreamcake = {"Flavour": "Irish coffee,Red Velvet,Butterscotch,Choco truffle and more"}
+print(icecreamcake)
+
+time.sleep(3)
+order = input("Ok next week is my sons birthday so order can be taken ?")
+
+time.sleep(1)
+house = input("Which area do u belong to Mam ?")
+
+time.sleep(0.5)
+print("Oh ok mam then fine you can order it two days before also mam")
+print("We would inform once it is ready ")
+
+time.sleep(2)
+print("Yeah then fine I will ask to my son and confirm it next week ")
+
+time.sleep(1)
+print("Butterscotch scoop and black current alone both parcel.")
+
+time.sleep(0.5)
+amount = input("How much totally ?")
+time.sleep(0.5)
+print("Anything Mam Ice cream shakes , bar ...")
+
+time.sleep(2)
+print("Yeah no thanks that's it.")
+print("Ok Mam , Thank u! ")
